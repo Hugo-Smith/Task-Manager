@@ -134,3 +134,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# React build
+client/build/
+client/dist/
+
+# Prisma
+server/prisma/dev.db
+server/prisma/dev.db-journal
+
+# Testing / Coverage
+**/coverage/
+**/.nyc_output/
